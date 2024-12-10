@@ -1,0 +1,87 @@
+.col-lg-3.col-md-6.mt-4.mt-md-0 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box.featured {
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.box.featured h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.box.featured h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.box.featured ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box.featured ul li {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-buy {
+  background-color: #06c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-buy:hover {
+  background-color: #0085ba;
+}
+body {
+ background-image: url('img.jpg');
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+.col-lg-3.col-md-6.mt-4.mt-md-0 .box.featured {
+  color: #FF0000; /* Ubah warna teks menjadi merah */
+}
+
+.col-lg-3.col-md-6.mt-4.mt-md-0 .box.featured h3 {
+  color: #F52916; /* Ubah warna judul menjadi hijau */
+}
+
+.col-lg-3.col-md-6.mt-4.mt-md-0 .box.featured h4 {
+  color: #32cd32; /* Ubah warna harga menjadi biru */
+}
+
+.col-lg-3.col-md-6.mt-4.mt-md-0 .box.featured ul li {
+  color: #FFA500; /* Ubah warna deskripsi menjadi oranye */
+}
+.neon {
+  color: #39FF14; /* Warna neon hijau */
+  text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14;
+}
+
+.neon:hover {
+  text-shadow: 0 0 10px #3BC8FF, 0 0 20px #3BC8FF, 0 0 30px #3BC8FF;
+}
